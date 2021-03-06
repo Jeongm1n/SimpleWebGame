@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>숫자맞추기</title>
+</head>
+<body>
+	<h1>Number guessing game</h1>
+	<p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+	<div class = "form">
+		<label for="guessField">Enter a guess: </label>
+		<input type="text" id="guessField" class="guessField">
+		<input type="submit" value="Submit" class="guessSubmit" onkeypress="javascript:if(event.keyCode==13){search onclick submit}">
+	</div>
+
+	<div class="resultParas">
+		<p class="guesses"></p>
+		<p class="lastResult"></p>
+		<p class="lowOrHi"></p>
+	</div>
+	<script src="index.js">
+		
+	</script>
+</body>
+</html>
